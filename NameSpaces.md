@@ -1,8 +1,8 @@
 
 # NameSpace
-==
+
 ## Swift
---
+
 #### How are name spaces implemented?
 In Swift, classes are in scoped by the modules that they are in. Therefore namespacing is implicit and not needed. 
 
@@ -19,7 +19,7 @@ var age = age(16)
 var age2 = Animals.age(5)
 
 ## Java
---
+
 #### How are name spaces implemented?
 In Java, a package is a namespace that organizes a set of related classes and interfaces.
 
