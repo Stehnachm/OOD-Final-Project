@@ -1,4 +1,4 @@
-# Instance reference name in data type (class) this? self?
+# Inheritance / extension
 
 ## Swift
 Some paragraph.
