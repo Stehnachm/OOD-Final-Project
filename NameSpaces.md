@@ -4,7 +4,7 @@
 ## Swift
 
 #### How are name spaces implemented?
-In Swift, classes are in scoped by the modules that they are in. Therefore namespacing is implicit and not needed. 
+In Swift, classes are in scoped by the modules that they are in. Therefore, namespacing is implicit and not needed. 
 
 #### How are name spaces used?
 Once the class is imported all methods will be available in classes inside the module.   
