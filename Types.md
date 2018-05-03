@@ -54,7 +54,7 @@ print(distance)
 ```
 
 ## Java
-#### What types does the language support?
+#### What types does Java support?
 Java allows two kinds of types:
 1. **Primitive types** - are predefined by the Java programming language and named by its reserved keyword. (these include the boolean type and the numeric types)
 ```java
