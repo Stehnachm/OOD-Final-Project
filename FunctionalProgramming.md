@@ -8,17 +8,17 @@ Swift supports functional programming by allowing immutability, higher-order fun
 func hello() {
   print("Hello World!")
 }
-let print = hello
-print()
+let output = hello
+output()
 
 // Other example
-func print() -> Void { 
+func world() -> Void { 
   print("Hello world!")
 }
 func hello(input_function: () -> Void) { 
   input_function()
 }
-hello(print) // prints Hello world!
+hello(world) // prints Hello world!
 ```
 
 ## Java
