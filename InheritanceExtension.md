@@ -42,7 +42,19 @@ print("Three feet is \(threeFeet) meters")
 // Prints "Three feet is 0.914399970739201 meters"
 ```
 
-## JAVA
+## Java
 #### Inheritance
+In the Java language, classes can be derived from other classes, thereby inheriting fields and methods from those classes. Classes can be derived from classes that are derived from classes that are derived from classes, and so on, and ultimately derived from the topmost class, Object. Such a class is said to be descended from all the classes in the inheritance chain stretching back to Object. 
+> Excepting Object, which has no superclass, every class has one and only one direct superclass (single inheritance). In the absence of any other explicit superclass, every class is implicitly a subclass of Object.
+
+**Java does not support multiple inheritance of classes**.
+```java
+// format = class subclass extends superclass { implementation of subclass }
+class Dog extends Pet {
+  // implement Dog here
+}
+```
 
 #### Extension
+Extensions are groups of packages and classes that augment the Java platform through the extension mechanism. The extension mechanism enables the runtime environment to find and load extension classes without the extension classes having to be named on the class path. In that respect, extension classes are similar to the Java platform's core classes. That's also where extensions get their name -- they, in effect, extend the platform's core API.
+> Extensions are bundled as Java Archive (JAR) files
