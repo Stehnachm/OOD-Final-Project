@@ -56,5 +56,4 @@ class Dog extends Pet {
 ```
 
 #### Extension
-Extensions are groups of packages and classes that augment the Java platform through the extension mechanism. The extension mechanism enables the runtime environment to find and load extension classes without the extension classes having to be named on the class path. In that respect, extension classes are similar to the Java platform's core classes. That's also where extensions get their name -- they, in effect, extend the platform's core API.
-> Extensions are bundled as Java Archive (JAR) files
+Java **does not** support extension methods. Meaning you have to alter the source or subclass/inherit to add functionality.
