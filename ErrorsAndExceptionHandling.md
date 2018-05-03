@@ -3,7 +3,11 @@
 ## Swift
 Swift provides first-class support for throwing, catching, propagating, and manipulating recoverable errors at runtime. In Swift, errors are represented by values of types that conform to the *Error* protocol. This empty protocol indicates that a type can be used for error handling. 
 
-There are four ways to handle errors in Swift: You can propagate the error from a function to the code that calls that function, handle the error using a do-catch statement, handle the error as an optional value, or assert that the error will not occur. 
+There are four ways to handle errors in Swift: 
+* You can propagate the error from a function to the code that calls that function
+* handle the error using a do-catch statement
+* handle the error as an optional value
+* assert that the error will not occur
 
 ```swift
 var vendingMachine = VendingMachine()
