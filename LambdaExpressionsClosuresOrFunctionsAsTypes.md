@@ -116,7 +116,7 @@ Even shorter implementation:
 reversedNames = names.sorted(by: >)
 ```
 
-Creating your own closures: [[Source]]()
+Creating your own closures: [[Source]](https://medium.com/@abhimuralidharan/functional-swift-all-about-closures-310bc8af31dd)
 ```swift
 let closure: (Int, Int) -> Int = { (number1, number2) in // Initializing a variable 'closure' and setting it to the value of a function
 return number1 + number2
