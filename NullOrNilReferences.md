@@ -15,7 +15,7 @@ print(noNumber == nil)
 #### Which does the language use? (null/nil/etc)
 Java uses null.
 #### Does the language have features for handling null/nil references?
-Null is a reference type and its value is the only reference value which doesn't refer to any object. Therefore there is no representation of null in memory.
+Null is a reference type and its value is the only reference value which doesn't refer to any object. Therefore, there is no representation of null in memory.
 ~~~
 Object obj = null;
 obj.toString();  // This statement will throw a NullPointerException
