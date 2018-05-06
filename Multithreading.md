@@ -94,7 +94,7 @@ DispatchQueue.global(qos: .userInitiated).async {
 A comparable multi-threading technique to Java is the usage of **Operation Queues**.  These function much like Java's multi-threading.  Created like so:
 ```swift
 let operationQueue: OperationQueue = OperationQueue() // Creates an OperationQueue
-operationQueue.addOperations([operation1], waitUntilFinished: false) // operation1 can a fuction 
+operationQueue.addOperations([operation1], waitUntilFinished: false) // operation1 would be a variable holding a function to execute 
 ```
 ```swift
 class CustomOperation: Operation {
