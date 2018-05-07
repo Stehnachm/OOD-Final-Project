@@ -46,6 +46,7 @@ Swift uses ARC as opposed to garbage collection.
 
 ## Java
 *Automatic Memory Management*
+
 The Java Virtual Machine (JVM) handles all of the memory and allocates/ deallocates when necessary. The JVM and garbage collection takes this so seriously, that Java will not allow the developer to access memory.
 
 
