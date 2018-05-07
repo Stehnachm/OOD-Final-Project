@@ -3,13 +3,10 @@
 ## Swift
 In Swift, Events provide a generic mechanism for raising notifications that can be handled by multiple observers. The Event class has a generic parameter T which defines the type of data that this event conveys and the EventHandler typealias declares a function that accepts this type. The rest of this class is pretty straightforward, handlers are added to an array, with each being invoked when the event is raised. In the code, after the declaration of the Event Class, we create an event and add a handler to the eventHandler list. We then can pass multiple parameters to event handlers via tuples.
 
-    - Documentations:
-        > In Swift, it use eventing mechanism to implement event handling.
-
-        > Events provide a generic mechanism for raising notifications that can be handled by multiple observers.
-
-    - Code Example:
-        ```
+- Documentations:
+    > In Swift, it use eventing mechanism to implement event handling.
+    > Events provide a generic mechanism for raising notifications that can be handled by multiple observers.
+```
         public class Event<T> {
             public typealias EventHandler = T -> ()
             private var eventHandlers = [Invocable]()
@@ -29,7 +26,7 @@ In Swift, Events provide a generic mechanism for raising notifications that can 
         private protocol Invocable: class {
             func invoke(data: Any)
         }
-        ```
+ ```
 
 
 ## Java
