@@ -2,29 +2,30 @@
 
 ### Team members: Hunter Ginther, Bruce Thomson, Brandon Splitter, Matt Stehnach, Dominic Pilla
 
-### Languages: Swift and Java
+## Languages: Swift and Java
 
-## Table of Contents
-1. [Language purpose/genesis](LanguagePurpose.md) - Matt
-2. [Unique features of the language](UniqueFeatures.md) - Brandon
-3. [Name spaces](NameSpaces.md) - Bruce
-4. [Types](Types.md) - Hunter
-5. [Classes](Classes.md) - Dominic
-6. [Instance reference name in data type (class)](InstanceReferenceName.md) - Matt
-7. [Properties](Properties.md) - Brandon
-8. [Interfaces / protocols](InterfacesProtocols.md) - Bruce
-9. [Inheritance / extension](InheritanceExtension.md) - Hunter
-10. [Reflection](Reflection.md) - Dominic
-11. [Memory management](MemoryManagement.md) - Matt
-12. [Comparisons of references and values](ComparisonsOfReferencesAndValues.md) - Brandon
-13. [Null/nil references](NullOrNilReferences.md) - Bruce
-14. [Errors and exception handling](ErrorsAndExceptionHandling.md) - Hunter
-15. [Lambda expressions, closures, or functions as types](LambdaExpressionsClosuresOrFunctionsAsTypes.md) - Dominic
-16. [Implementation of listeners and event handlers](ImplementationOfListenersAndEventHandlers.md) - Matt
-17. [Singleton](Singleton.md) - Brandon
-18. [Procedural programming](ProceduralProgramming.md) - Bruce
-19. [Functional programming](FunctionalProgramming.md) - Hunter
-20. [Multithreading](Multithreading.md) - Dominic
+### Table of Contents
+1. [Language purpose/genesis](LanguagePurpose.md)
+2. [Unique features of the language](UniqueFeatures.md)
+3. [Name spaces](NameSpaces.md)
+4. [Types](Types.md)
+5. [Classes](Classes.md)
+6. [Instance reference name in data type (class)](InstanceReferenceName.md)
+7. [Properties](Properties.md)
+8. [Interfaces / protocols](InterfacesProtocols.md)
+9. [Inheritance / extension](InheritanceExtension.md)
+10. [Reflection](Reflection.md)
+11. [Memory management](MemoryManagement.md)
+12. [Comparisons of references and values](ComparisonsOfReferencesAndValues.md)
+13. [Null/nil references](NullOrNilReferences.md)
+14. [Errors and exception handling](ErrorsAndExceptionHandling.md)
+15. [Lambda expressions, closures, or functions as types](LambdaExpressionsClosuresOrFunctionsAsTypes.md)
+16. [Implementation of listeners and event handlers](ImplementationOfListenersAndEventHandlers.md)
+17. [Singleton](Singleton.md)
+18. [Procedural programming](ProceduralProgramming.md)
+19. [Functional programming](FunctionalProgramming.md)
+20. [Multithreading](Multithreading.md)
+
 
 Comparison Criteria
 
