@@ -7,25 +7,25 @@ In Swift, Events provide a generic mechanism for raising notifications that can 
     > In Swift, it use eventing mechanism to implement event handling.
     > Events provide a generic mechanism for raising notifications that can be handled by multiple observers.
 ```
-        public class Event<T> {
-            public typealias EventHandler = T -> ()
-            private var eventHandlers = [Invocable]()
-            public func raise(data: T) {
-                for handler in self.eventHandlers {
-                    handler.invoke(data)
-                }
-            }
-            public func addHandler<U: AnyObject>(target: U,
-            handler: (U) -> EventHandler) -> Disposable {
-                let wrapper = EventHandlerWrapper(target: target,
-                handler: handler, event: self)
-                eventHandlers.append(wrapper)
-                return wrapper
+public class Event<T> {
+public typealias EventHandler = T -> ()
+private var eventHandlers = [Invocable]()
+public func raise(data: T) {
+    for handler in self.eventHandlers {
+        handler.invoke(data)
             }
         }
-        private protocol Invocable: class {
-            func invoke(data: Any)
+public func addHandler<U: AnyObject>(target: U,
+    handler: (U) -> EventHandler) -> Disposable {
+        let wrapper = EventHandlerWrapper(target: target,
+        handler: handler, event: self)
+        eventHandlers.append(wrapper)
+        return wrapper
+            }
         }
+private protocol Invocable: class {
+    func invoke(data: Any)
+    }
  ```
 
 
