@@ -16,7 +16,7 @@ Swift was the successor to the OBjective-C language, Swift for the Mac currently
 Java was started as a project called "Oak" by James Gosling in June 1991. Gosling's goals were to implement a virtual machine and a language that had a familiar C-like notation but with greater uniformity and simplicity than C/C++. 
 
 ### What problems was the language trying to address?
-Java emphasis on speed
+Java emphasized speed
 
 ### Is the language a reaction to a previous language or a replacement for another language?
-The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.
+The language derives much of its syntax from C and C++, though it has fewer low-level facilities than either of them.
